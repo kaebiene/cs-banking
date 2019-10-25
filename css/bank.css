@@ -1017,7 +1017,13 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
 }
+
+.bank .top .rectanglecopy2:hover {
+  background-color    : black;
+}
+
 .bank .top .rectanglecopy3 {
   background-color    : rgba(50, 108, 244, 1.0);
   top                 : 0px;
@@ -1029,7 +1035,13 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
 }
+
+.bank .top .rectanglecopy3:hover {
+  background-color    : black;
+}
+
 .bank .top .personal {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
@@ -1080,7 +1092,13 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 22.0px;
+  transition          : all 0.2s ease-in-out;
 }
+
+.bank .top .products:hover{
+  color               : rgba(255,255,255,0.5);
+}
+
 .bank .top .support {
   background-color    : rgba(255,255,255,0.0);
   top                 : 109px;
@@ -1097,7 +1115,13 @@ div {
   color               : rgba(255, 255, 255, 1.0);
   text-align          : left;
   line-height         : 22.0px;
+  transition          : all 0.2s ease-in-out;
 }
+
+.bank .top .support:hover {
+  color               : rgba(255,255,255,0.5);
+}
+
 .bank .top .international {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
@@ -1222,7 +1246,13 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 34.0px;
+  transition          : all 0.2s ease-in-out;
 }
+
+.bank .findoutmore:hover {
+  color: rgba(50, 108, 244, 1.0);
+}
+
 .bank .path15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 611px;
