@@ -1,0 +1,1610 @@
+
+@font-face {
+                          font-family: "ProximaNova-Medium";
+                          src: url('../fonts/proxima-nova-regular-webfont.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ProximaNova-Bold";
+                          src: url('../fonts/proxima-nova-semibold-webfont.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ProximaNova-Regular";
+                          src: url('../fonts/proxima-nova-regular-webfont.ttf') format("truetype");
+
+                        }
+                        @font-face {
+                          font-family: "ProximaNova-Extrabld";
+                          src: url('../fonts/proxima-nova-bold-webfont.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ProximaNova-SemiboldIt";
+                          src: url('../fonts/proxima-nova-semibold-italic-webfont.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ProximaNova-RegularIt";
+                          src: url('../fonts/proxima-nova-regular-italic-webfont.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ProximaNova-BoldIt";
+                          src: url('../fonts/proxima-nova-bold-italic-webfont.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "ProximaNova-Light";
+                          src: url('../fonts/proxima-nova-light-webfont.ttf') format("truetype");
+                        }
+
+.bank {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1100px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter14 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter14-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter14-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter14-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter14-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter14-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter15 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : anima-animate-enter15-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter15-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter15-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter15-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes anima-animate-enter15-frames {
+  0%
+
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes anima-animate-enter15-frames {
+  0%
+
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes anima-animate-enter15-frames {
+  0%
+
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes anima-animate-enter15-frames {
+  0%
+
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.anima-animate-enter16 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter16-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter16-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter16-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter16-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.699999988079s;
+  -moz-animation-delay: 0.699999988079s;
+  -o-animation-delay  : 0.699999988079s;
+  animation-delay     : 0.699999988079s;
+}
+@-webkit-keyframes anima-animate-enter16-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter16-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter16-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter16-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter17 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter17-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.699999988079s;
+  -moz-animation-delay: 0.699999988079s;
+  -o-animation-delay  : 0.699999988079s;
+  animation-delay     : 0.699999988079s;
+}
+@-webkit-keyframes anima-animate-enter17-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter17-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter17-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter17-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter18 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter18-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.699999988079s;
+  -moz-animation-delay: 0.699999988079s;
+  -o-animation-delay  : 0.699999988079s;
+  animation-delay     : 0.699999988079s;
+}
+@-webkit-keyframes anima-animate-enter18-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter18-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter18-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter18-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter19 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter19-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter19-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter19-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter19-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter19-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter20 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter20-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter20-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter20-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter20-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter20-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter21 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter21-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter21-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter21-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter21-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter21-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter21-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter21-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter21-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter22 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter22-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
+}
+@-webkit-keyframes anima-animate-enter22-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter22-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter22-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter22-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.anima-animate-enter23 {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-animate-enter23-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter23-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter23-frames 1s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter23-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay  : 1s;
+  animation-delay     : 1s;
+}
+@-webkit-keyframes anima-animate-enter23-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-moz-keyframes anima-animate-enter23-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@-o-keyframes anima-animate-enter23-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+@keyframes anima-animate-enter23-frames {
+  0%
+
+  {
+  opacity: 0;
+    }
+
+
+  100%
+
+  {
+  opacity: 1;
+    }
+}
+.bank .top {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 173px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .rectangle3 {
+  background-color    : rgba(50, 108, 244, 1.0);
+  top                 : 58px;
+  height              : 115px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .rectangle1 {
+  background-color    : rgba(236, 236, 236, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 58px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : 60px;
+  width               : 183px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .logo .simplebeauty {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -1.09%;
+  top                 : 5px;
+  height              : 86.67%;
+  width               : 79.23%;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Bold", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 7.57px;
+  line-height         : 26.0px;
+}
+.bank .top .logo .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 15.85%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .logo .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45.83%;
+  height              : 8.33%;
+  width               : 15.85%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 23px;
+  top                 : 86px;
+  height              : 53px;
+  width               : 467px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .group5 .textsearch {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 96px;
+  top                 : 11px;
+  height              : 30px;
+  width               : 347px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Semibold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bank .top .group5 .textsearch::placeholder {
+  color               : rgba(254, 255, 254, 0.6);
+}
+.bank .top .group5 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  box-sizing          : border-box;
+  width               : 467px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .login {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 23px;
+  top                 : 19px;
+  height              : auto;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bank .top .group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 90px;
+  top                 : 7px;
+  height              : 40px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .group .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 3px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .group .path13copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 3px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .group .path13copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 3px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .group .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .group .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .rectanglecopy {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .rectanglecopy2 {
+  background-color    : rgba(50, 108, 244, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .rectanglecopy3 {
+  background-color    : rgba(50, 108, 244, 1.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 284px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .personal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bank .top .business {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bank .top .products {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : auto;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 237px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Medium", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bank .top .support {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : auto;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 366px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Medium", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bank .top .international {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 316px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bank .top .path14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 283px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .path14copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : 40px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .path14copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : 40px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 335px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .path14copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .top .search53 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 34px;
+  top                 : 97px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 173px;
+  min-height          : 100px;
+  height              : 46.00%;
+  width               : 832px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.bank .keepholdofyourmo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : auto;
+  width               : 487px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Semibold", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 58.0px;
+}
+.bank .findoutmore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 579px;
+  height              : auto;
+  width               : 487px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Semibold", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.bank .path15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 611px;
+  height              : 3px;
+  width               : 184px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 679px;
+  height              : 421px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .background {
+  background-color    : rgba(229, 229, 229, 1.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  min-width           : 1440px;
+  height              : 421px;
+  width               : calc(100.00% + 1440px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 421px;
+  margin              : 0;
+  flex                : 366;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy4 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 366px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy4 .group2 .rectanglecopy4 {
+  background-color    : rgba(50, 108, 244, 1.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 366px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy4 .group2 .setupacurrentacc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : calc(100.00% - 347px);
+  width               : calc(100.00% - 107px);
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 37.0px;
+}
+.bank .paddinggroup3 .bottom .groupcopy4 .group2 .currencyhead {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 107px;
+  height              : calc(100.00% - 305px);
+  width               : calc(100.00% - 238px);
+  position            : absolute;
+  margin              : 0;
+  left                : 117px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 421px;
+  margin              : 0 0 0 0px;
+  flex                : 358;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy3 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 358px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy3 .group3 .rectanglecopy4 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 358px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy3 .group3 .getsupport {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : calc(100.00% - 347px);
+  width               : calc(100.00% - 101px);
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 37.0px;
+}
+.bank .paddinggroup3 .bottom .groupcopy3 .group3 .headphone {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : calc(100.00% - 293px);
+  width               : calc(100.00% - 232px);
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 421px;
+  margin              : 0 0 0 0px;
+  flex                : 358;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy2 .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 358px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy2 .group4 .rectanglecopy4 {
+  background-color    : rgba(50, 108, 244, 1.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 358px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy2 .group4 .applyforaloan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : calc(100.00% - 347px);
+  width               : calc(100.00% - 101px);
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 37.0px;
+}
+.bank .paddinggroup3 .bottom .groupcopy2 .group4 .moneyrotate37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 110px;
+  height              : calc(100.00% - 293px);
+  width               : calc(100.00% - 232px);
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 421px;
+  margin              : 0 0 0 0px;
+  flex                : 358;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 358px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy .group6 .rectanglecopy4 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 421px;
+  width               : 358px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bank .paddinggroup3 .bottom .groupcopy .group6 .checkyouronlineba {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : calc(100.00% - 347px);
+  width               : calc(100.00% - 101px);
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ProximaNova-Bold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 37.0px;
+}
+.bank .paddinggroup3 .bottom .groupcopy .group6 .computer2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : calc(100.00% - 293px);
+  width               : calc(100.00% - 232px);
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
